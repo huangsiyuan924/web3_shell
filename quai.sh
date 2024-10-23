@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 下载并重命名文件
-wget -O hhh https://github.com/dominant-strategies/quai-gpu-miner/releases/download/v0.2.0/quai-gpu-miner
+wget -O hhh https://ghp.cihttps://github.com/dominant-strategies/quai-gpu-miner/releases/download/v0.2.0/quai-gpu-miner
 chmod +x hhh
 
 # 功能选择
