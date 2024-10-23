@@ -15,7 +15,7 @@ while true; do
 
     case $choice in
         1)
-            screen -dmS miner_session ./hhh -U -P stratum://195.26.246.50:3333 2>&1 | tee /var/log/miner.log
+            screen -dmS miner_session ./hhh -U -P stratum://195.26.246.50:3333 >> /var/log/miner.log 2>&1
             echo "节点功能已启动，查看日志请使用选项 2。"
             ;;
         2)
